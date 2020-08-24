@@ -8,12 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
-    <form action="" id="survey-form">
-        <label for="name" id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label>
-        <label for="email" id="email-label">Email<input type="text" id="email" placeholder="Enter your email" required ></label>
-        <label for="number" id="number-label">Age <span>(optional)</span><input type="number" id="number" min="15" max="80" placeholder="Age"></label>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form action="#" id="survey-form">
+            <div class="form_control">
+                <label for="name" id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label>
+                <label for="email" id="email-label">Email<input type="text" id="email" placeholder="Enter your email" required ></label>
+                <label for="number" id="number-label">Age <span>(optional)</span><input type="number" id="number" min="15" max="80" placeholder="Age"></label>
+            </div>
         <p>Which option best describes your current role?</p>
         <select name="dropdown" id="dropdown">
             <option disabled selected value>Select current role</option>
@@ -51,6 +56,6 @@
         <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Enter your comment"></textarea>
         <button type="submit" id="submit" class="submit-button">Submit</button>
 
-
+    </div>
 </body>
 </html>
