@@ -14,12 +14,13 @@ body {
     line-height: 1.6;
     font-weight: 400;
     margin: 0;
+    color: white;
 }
 
 .container {
     margin:3.125rem auto 0 auto;
     width: 720px;
-    border: 2px solid red;
+    
 }
 
 h1 {
@@ -33,16 +34,18 @@ p {
 
   h1, p {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1rem;
 }
 
 .header {
     text-align: center;
     margin-bottom: 1rem;
+    color: teal;
 }
 
 form {
   padding: 2.5rem;
+  background-color: #1b1b32;
   
 }
 
@@ -50,23 +53,40 @@ label {
   display: flex;
   width: 100%;
   margin: 0;
+  align-items: center;
+  
 
 }
 
 
 input[type=text], input[type=number], select {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 12px;
+    margin: 5px 0 20px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: inherit;
   }
-  
+
+  select {
+    background-color: #fff;
+    color: #495057;
+  }
+
+  .input_radio, .input_checkbox {
+    margin-right: 5px;
+    }
+
 textarea {
   width: 100%;
   font-style: inherit;
+  padding: 12px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .submit-button {
