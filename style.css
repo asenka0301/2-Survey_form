@@ -9,23 +9,24 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
-    font-weight: 400;
-    margin: 0;
-    color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: white;
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+   
 }
 
 .container {
-    margin:3.125rem auto 0 auto;
-    width: 720px;
+  margin:3.125rem auto 0 auto;
+  width: 720px;
     
 }
 
 h1 {
-    font-weight:400;
-    line-height: 1.4;
+  font-weight:400;
+  line-height: 1.4;
 }
 
 p {
@@ -40,35 +41,45 @@ p {
 .header {
     text-align: center;
     margin-bottom: 1rem;
-    color: teal;
+    color: white;
 }
 
 form {
   padding: 2.5rem;
-  background-color: #1b1b32;
-  
+  background-color: #6daad8;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
+
+.form_control {
+  margin-bottom: 1.5rem;
+}
+
+
 
 label {
   display: flex;
   width: 100%;
-  margin: 0;
   align-items: center;
-  
-
+  margin-bottom: 0.3rem;
 }
 
 
 input[type=text], input[type=number], select {
     width: 100%;
     padding: 10px 12px;
-    margin: 5px 0 20px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: inherit;
   }
 
+span {
+  font-size: small;
+}
   select {
     background-color: #fff;
     color: #495057;
@@ -91,7 +102,7 @@ textarea {
 
 .submit-button {
   width: 100%;
-  background-color: #37af65;
+  background-color: rgb(89, 114, 230);
   padding: 1rem;
   color: white;
   border: none;
