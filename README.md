@@ -18,7 +18,7 @@
 15. Inside the form element, **textarea** at the end for additional comments.
 16.  Inside the form element, a button with **id="submit"** to submit all my inputs.
 
-Link to workin project on *codepen.io* - 
+Link to workin project on *codepen.io* - [https://codepen.io/asenka0301/pen/ZEWyVJm](https://codepen.io/asenka0301/pen/ZEWyVJm)
 
 
 
